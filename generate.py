@@ -10,7 +10,7 @@ import sys
 from pathlib import Path
 
 
-SYSTEM = "You are a pragmatic Python developer who writes small, sharp CLI utilities."
+SYSTEM = "You are a pragmatic Python developer who writes small, sharp CLI utilities. Never use em dashes in any text output."
 
 PROMPT = """\
 Generate a self-contained Python CLI tool. Pick something genuinely useful — \
