@@ -1,0 +1,38 @@
+name: Daily Tool
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # 9am UTC daily
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Generate tool
+        id: gen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: echo "commit_msg=$(python generate.py)" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        run: |
+          git config user.name "toolkit-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add .
+          git commit -m "${{ steps.gen.outputs.commit_msg }}"
+          git push
