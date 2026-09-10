@@ -8,3 +8,4 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [bulk_rename.py](tools/bulk_rename.py) | Batch rename files using pattern matching with preview and regex support. |
