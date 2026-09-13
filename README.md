@@ -8,6 +8,7 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [port_scanner.py](tools/port_scanner.py) | Scans a host for open TCP ports within a specified range with configurable timeout and threading. |
 | [json2csv.py](tools/json2csv.py) | Converts JSON files (array of objects or newline-delimited JSON) to CSV format with automatic header detection. |
 | [dedupe_lines.py](tools/dedupe_lines.py) | Removes duplicate lines from text files while preserving the original order of first occurrences. |
 | [bulk_rename.py](tools/bulk_rename.py) | Batch rename files using pattern matching with preview and regex support. |
