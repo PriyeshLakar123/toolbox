@@ -8,6 +8,7 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [filewatch.py](tools/filewatch.py) | Monitors a file or directory for changes and executes a command when modifications are detected. |
 | [port_scanner.py](tools/port_scanner.py) | Scans a host for open TCP ports within a specified range with configurable timeout and threading. |
 | [json2csv.py](tools/json2csv.py) | Converts JSON files (array of objects or newline-delimited JSON) to CSV format with automatic header detection. |
 | [dedupe_lines.py](tools/dedupe_lines.py) | Removes duplicate lines from text files while preserving the original order of first occurrences. |
