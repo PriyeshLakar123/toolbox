@@ -8,6 +8,7 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [log_tail.py](tools/log_tail.py) | Monitors log files in real-time with optional pattern highlighting and filtering. |
 | [hash_check.py](tools/hash_check.py) | Computes and verifies file checksums using MD5, SHA1, or SHA256 algorithms. |
 | [dir_tree.py](tools/dir_tree.py) | Prints a visual directory tree structure with optional depth limit and file size display. |
 | [filewatch.py](tools/filewatch.py) | Monitors a file or directory for changes and executes a command when modifications are detected. |
