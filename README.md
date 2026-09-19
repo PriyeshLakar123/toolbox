@@ -8,6 +8,7 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [todo_tracker.py](tools/todo_tracker.py) | A lightweight CLI todo list manager with add, list, complete, and delete operations stored in a JSON file. |
 | [csv_stats.py](tools/csv_stats.py) | Quickly compute summary statistics (count, min, max, mean, median) for numeric columns in a CSV file. |
 | [log_tail.py](tools/log_tail.py) | Monitors log files in real-time with optional pattern highlighting and filtering. |
 | [hash_check.py](tools/hash_check.py) | Computes and verifies file checksums using MD5, SHA1, or SHA256 algorithms. |
