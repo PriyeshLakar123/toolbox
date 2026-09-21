@@ -8,6 +8,7 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [timestamp_convert.py](tools/timestamp_convert.py) | Converts between Unix timestamps and human-readable dates in various formats and timezones. |
 | [env_diff.py](tools/env_diff.py) | Compares two .env files and shows added, removed, and changed variables between them. |
 | [todo_tracker.py](tools/todo_tracker.py) | A lightweight CLI todo list manager with add, list, complete, and delete operations stored in a JSON file. |
 | [csv_stats.py](tools/csv_stats.py) | Quickly compute summary statistics (count, min, max, mean, median) for numeric columns in a CSV file. |
