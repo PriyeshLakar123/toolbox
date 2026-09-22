@@ -8,6 +8,7 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [find_dupes.py](tools/find_dupes.py) | Finds duplicate files in a directory tree by comparing file hashes, with options to filter by size or extension. |
 | [timestamp_convert.py](tools/timestamp_convert.py) | Converts between Unix timestamps and human-readable dates in various formats and timezones. |
 | [env_diff.py](tools/env_diff.py) | Compares two .env files and shows added, removed, and changed variables between them. |
 | [todo_tracker.py](tools/todo_tracker.py) | A lightweight CLI todo list manager with add, list, complete, and delete operations stored in a JSON file. |
