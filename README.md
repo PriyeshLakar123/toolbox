@@ -8,6 +8,7 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [snippet_extract.py](tools/snippet_extract.py) | Extracts code blocks from markdown files and saves them as individual files with proper extensions. |
 | [text_stats.py](tools/text_stats.py) | Analyzes text files and displays word count, character count, line count, average word length, and most common words. |
 | [find_dupes.py](tools/find_dupes.py) | Finds duplicate files in a directory tree by comparing file hashes, with options to filter by size or extension. |
 | [timestamp_convert.py](tools/timestamp_convert.py) | Converts between Unix timestamps and human-readable dates in various formats and timezones. |
