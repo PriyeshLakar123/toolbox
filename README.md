@@ -8,6 +8,7 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [json_flatten.py](tools/json_flatten.py) | Flattens nested JSON structures into dot-notation key-value pairs for easier inspection and processing. |
 | [gitignore_gen.py](tools/gitignore_gen.py) | Generates .gitignore files from common templates for various languages and frameworks. |
 | [url_extract.py](tools/url_extract.py) | Extracts and deduplicates all URLs from text files or stdin, with optional filtering by domain. |
 | [snippet_extract.py](tools/snippet_extract.py) | Extracts code blocks from markdown files and saves them as individual files with proper extensions. |
