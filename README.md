@@ -8,6 +8,7 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [ip_info.py](tools/ip_info.py) | Displays local network interface information including IP addresses, MAC addresses, and netmask details. |
 | [secret_gen.py](tools/secret_gen.py) | Generates cryptographically secure random passwords, tokens, and secrets with customizable length and character sets. |
 | [markdown_toc.py](tools/markdown_toc.py) | Generates a table of contents from markdown headings with configurable depth and output format. |
 | [json_flatten.py](tools/json_flatten.py) | Flattens nested JSON structures into dot-notation key-value pairs for easier inspection and processing. |
