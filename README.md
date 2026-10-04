@@ -8,6 +8,7 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [http_headers.py](tools/http_headers.py) | Fetches and displays HTTP response headers for any URL with optional filtering and formatting. |
 | [cron_explain.py](tools/cron_explain.py) | Parses cron expressions and explains them in plain English, with optional next run times. |
 | [clipboard_history.py](tools/clipboard_history.py) | Monitors and stores clipboard history, allowing you to search and retrieve previous clipboard entries. |
 | [ip_info.py](tools/ip_info.py) | Displays local network interface information including IP addresses, MAC addresses, and netmask details. |
