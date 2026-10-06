@@ -8,6 +8,7 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [yaml2env.py](tools/yaml2env.py) | Converts YAML configuration files to shell-compatible environment variable exports. |
 | [color_extract.py](tools/color_extract.py) | Extracts all color codes (hex, RGB, HSL) from files or stdin and outputs unique colors with their formats. |
 | [http_headers.py](tools/http_headers.py) | Fetches and displays HTTP response headers for any URL with optional filtering and formatting. |
 | [cron_explain.py](tools/cron_explain.py) | Parses cron expressions and explains them in plain English, with optional next run times. |
