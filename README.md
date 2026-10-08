@@ -8,6 +8,7 @@ Powered by [Claude](https://anthropic.com).
 
 | Script | Description |
 | --- | --- |
+| [proc_watch.py](tools/proc_watch.py) | Monitor a process by PID or name and alert when it starts, stops, or exceeds resource thresholds. |
 | [file_age.py](tools/file_age.py) | Lists files in a directory sorted by age with human-readable timestamps and age display. |
 | [yaml2env.py](tools/yaml2env.py) | Converts YAML configuration files to shell-compatible environment variable exports. |
 | [color_extract.py](tools/color_extract.py) | Extracts all color codes (hex, RGB, HSL) from files or stdin and outputs unique colors with their formats. |
